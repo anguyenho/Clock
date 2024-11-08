@@ -21,6 +21,17 @@ struct WorldClockView: View {
                         }
                         
                     }
+                }
+                .toolbar {
+                    
+                    ToolbarItem(placement: .primaryAction) {
+                        
+                        Button {
+                            // Does nothing right now
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                    }
                     
                 }
         }
