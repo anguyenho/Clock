@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664D7B812D3559A20029F1C7 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664D7B802D3559A20029F1C7 /* CityView.swift */; };
 		66BE85CD2CDE519600558AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BE85C72CDE519600558AD2 /* Preview Assets.xcassets */; };
 		66BE85CE2CDE519600558AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BE85C92CDE519600558AD2 /* Assets.xcassets */; };
 		66BE85CF2CDE519600558AD2 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE85CA2CDE519600558AD2 /* ClockApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664D7B802D3559A20029F1C7 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 		66BE85B62CDE4EFB00558AD2 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BE85C72CDE519600558AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66BE85C92CDE519600558AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				66BE85CB2CDE519600558AD2 /* LandingView.swift */,
 				66BE85D22CDE52D100558AD2 /* WorldClockView.swift */,
+				664D7B802D3559A20029F1C7 /* CityView.swift */,
 				66BE85D42CDE52E600558AD2 /* AlarmsView.swift */,
 				66BE85D62CDE52F300558AD2 /* StopwatchView.swift */,
 			);
@@ -161,6 +164,7 @@
 				66BE85CF2CDE519600558AD2 /* ClockApp.swift in Sources */,
 				66BE85D52CDE52E600558AD2 /* AlarmsView.swift in Sources */,
 				66BE85D72CDE52F300558AD2 /* StopwatchView.swift in Sources */,
+				664D7B812D3559A20029F1C7 /* CityView.swift in Sources */,
 				66BE85D02CDE519600558AD2 /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
